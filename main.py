@@ -113,7 +113,3 @@ if __name__ == '__main__':
         if inp == speech.name:
             mixer.music.play()
             speech.commands(speech.listen())
-
-# Выучить асинхрон, asyncio, сокеты, sqlite3
-# !!!match!!!
-# !!!cls вместо self!!!
